@@ -32,7 +32,7 @@ export function HeroSection() {
           <ArrowDown className="ml-2 w-5 h-5" />
         </button>
         <a 
-          href="https://docs.example.com/devops-guide" 
+          href="https://gitlab.kochar.com/kocharsoft/devops-world" 
           target="_blank" 
           rel="noopener noreferrer"
           className="inline-flex items-center px-8 py-4 border border-devops-blue-light text-devops-blue-light hover:bg-devops-blue-light hover:text-white font-semibold rounded-xl transition-all duration-300"

@@ -17,14 +17,14 @@ const devopsApplications = [
   },
   {
     title: "Teleport Management",
-    description: "Secure access management for infrastructure with zero-trust principles and session recording capabilities.",
+    description: "Secure access management for infrastructure with zero-trust principles",
     icon: Lock,
     href: "/teleport",
     status: "active" as const
   },
   {
     title: "Autoscaling Console",
-    description: "Monitor and configure automatic scaling policies for applications and infrastructure components.",
+    description: "Monitor and configure automatic scaling policies for applications and OCI based infrastructure components.",
     icon: Activity,
     href: "/autoscaling",
     status: "active" as const
@@ -67,7 +67,7 @@ const Index = () => {
         
         <div className="mt-16 text-center">
           <p className="text-gray-400 text-sm">
-            Need access to additional custom tools? Contact your system administrator.
+            Need access to additional custom tools? Contact Devops Team.
           </p>
         </div>
       </div>
