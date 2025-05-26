@@ -5,6 +5,6 @@ services:
   devops-portal:
     build: .
     ports:
-      - "8080:80"
+      - "8865:80"
     restart: unless-stopped
     container_name: devops-command-center
