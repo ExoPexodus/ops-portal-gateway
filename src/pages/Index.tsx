@@ -42,7 +42,7 @@ const Index = () => {
       <div className="relative z-10 container mx-auto px-6 py-12">
         <HeroSection />
         
-        <div className="mb-12">
+        <div id="tools-section" className="mb-12">
           <h2 className="text-3xl font-bold text-white text-center mb-4">
             Access Your Custom Tools
           </h2>

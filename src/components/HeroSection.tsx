@@ -1,7 +1,13 @@
-
-import { ArrowRight, Shield, Zap, Users } from "lucide-react";
+import { ArrowDown, Shield, Zap, Users } from "lucide-react";
 
 export function HeroSection() {
+  const scrollToTools = () => {
+    const toolsSection = document.getElementById('tools-section');
+    if (toolsSection) {
+      toolsSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="text-center mb-16 animate-fade-in">
       <div className="mb-8">
@@ -18,13 +24,21 @@ export function HeroSection() {
       </div>
       
       <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-        <button className="inline-flex items-center px-8 py-4 bg-devops-blue-light hover:bg-devops-blue-medium text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-devops-blue-light/30 transform hover:-translate-y-1">
+        <button 
+          onClick={scrollToTools}
+          className="inline-flex items-center px-8 py-4 bg-devops-blue-light hover:bg-devops-blue-medium text-white font-semibold rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-devops-blue-light/30 transform hover:-translate-y-1"
+        >
           Get Started
-          <ArrowRight className="ml-2 w-5 h-5" />
+          <ArrowDown className="ml-2 w-5 h-5" />
         </button>
-        <button className="inline-flex items-center px-8 py-4 border border-devops-blue-light text-devops-blue-light hover:bg-devops-blue-light hover:text-white font-semibold rounded-xl transition-all duration-300">
+        <a 
+          href="https://docs.example.com/devops-guide" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="inline-flex items-center px-8 py-4 border border-devops-blue-light text-devops-blue-light hover:bg-devops-blue-light hover:text-white font-semibold rounded-xl transition-all duration-300"
+        >
           View Documentation
-        </button>
+        </a>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
