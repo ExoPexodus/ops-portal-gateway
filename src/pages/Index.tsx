@@ -27,7 +27,7 @@ const devopsApplications = [
     title: "Teleport Management",
     description: "Secure access management for infrastructure with zero-trust principles",
     icon: Lock,
-    href: "/teleportui",
+    href: "/teleportui/",
     status: "maintenance" as const
   },
   {
