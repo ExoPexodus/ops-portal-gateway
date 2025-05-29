@@ -17,25 +17,25 @@ const devopsApplications = [
     status: "active" as const
   },
   {
+    title: "Knowledge Management Console",
+    description: "Read well detailed documentation and guides created by techdesk team",
+    icon: Book,
+    href: "https://in-app.knowmax.ai/techdesk",
+    status: "active" as const
+  },
+  {
     title: "Teleport Management",
     description: "Secure access management for infrastructure with zero-trust principles",
     icon: Lock,
-    href: "/teleport",
-    status: "active" as const
+    href: "/teleportui",
+    status: "maintenance" as const
   },
   {
     title: "Autoscaling Console",
     description: "Monitor and configure automatic scaling policies for applications and OCI based infrastructure components.",
     icon: Activity,
     href: "/autoscaling",
-    status: "active" as const
-  },
-  {
-    title: "Knowledge Management Console",
-    description: "Read well detailed documentation and guides created by techdesk team",
-    icon: Book,
-    href: "https://in-app.knowmax.ai/techdesk",
-    status: "active" as const
+    status: "inactive" as const
   }
 ];
 
