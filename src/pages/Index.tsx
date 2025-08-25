@@ -50,10 +50,13 @@ const Index = () => {
       <div className="relative z-10 container mx-auto px-6 py-12">
         <HeroSection />
         
-        <div className="mb-8">
-          <h2 className="text-2xl font-bold text-white text-center mb-6">
+        <div id="tools-section" className="mb-12">
+          <h2 className="text-3xl font-bold text-white text-center mb-4">
             Access Your Custom Tools
           </h2>
+          <p className="text-gray-300 text-center max-w-2xl mx-auto">
+            Choose from our custom-built applications designed specifically for your infrastructure needs. Access your tailored DevOps solutions from one central hub.
+          </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
