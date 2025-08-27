@@ -40,32 +40,6 @@ export function HeroSection() {
           View Documentation
         </a>
       </div>
-      
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-        <div className="flex flex-col items-center text-center">
-          <div className="p-4 bg-devops-blue-medium/20 rounded-full mb-4">
-            <Shield className="w-8 h-8 text-devops-blue-light" />
-          </div>
-          <h3 className="text-lg font-semibold text-white mb-2">Secure Access</h3>
-          <p className="text-gray-400 text-sm">Enterprise-grade security with role-based access control</p>
-        </div>
-        
-        <div className="flex flex-col items-center text-center">
-          <div className="p-4 bg-devops-blue-medium/20 rounded-full mb-4">
-            <Zap className="w-8 h-8 text-devops-blue-light" />
-          </div>
-          <h3 className="text-lg font-semibold text-white mb-2">Lightning Fast</h3>
-          <p className="text-gray-400 text-sm">Quick access to all your tools without context switching</p>
-        </div>
-        
-        <div className="flex flex-col items-center text-center">
-          <div className="p-4 bg-devops-blue-medium/20 rounded-full mb-4">
-            <Users className="w-8 h-8 text-devops-blue-light" />
-          </div>
-          <h3 className="text-lg font-semibold text-white mb-2">Team Focused</h3>
-          <p className="text-gray-400 text-sm">Built for DevOps teams to collaborate effectively</p>
-        </div>
-      </div>
     </div>
   );
 }
